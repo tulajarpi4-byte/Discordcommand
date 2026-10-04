@@ -1,0 +1,17 @@
+name: DiscordCommand
+version: 1.0.0
+main: hu.discordcommand.DiscordCommand
+api-version: '1.21'
+commands:
+  dc:
+    description: Opens the Discord server invite
+    usage: /dc
+    permission: discordcommand.use
+  discord:
+    description: Opens the Discord server invite
+    usage: /discord
+    permission: discordcommand.use
+permissions:
+  discordcommand.use:
+    description: Allows using /dc and /discord
+    default: true
